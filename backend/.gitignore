@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+*.out
+*.pid
+*.gz
+
+# Database
+database/*.db
+database/*.db-journal
+
+# Build files
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional npm cache
+.npm/
+
+# Local environment settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
